@@ -11,5 +11,5 @@ class punto:
         mover_puntoY=int(input("Digite las coordenadas que desea para el punto en el eje Y:  "))
         print(f"Las nuevas coordenadas del punto son: ({mover_puntoX},{mover_puntoY})")
 
-
+    
     
