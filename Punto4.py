@@ -1,18 +1,22 @@
 
-class rectangulos:
-    def __init__(self, Punto_1_X,Punto_1_Y, Punto_2_X,Punto_2_Y) -> None:
-        
-        self.Punto1=Punto_1_X
-        self.Punto1=Punto_1_Y
-        self.Punto1=Punto_2_Y
-        self.Punto2=Punto_2_X
+class Punto:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        print(f"El punto es {x,y}")
 
-        print(f"El primer punto del rectangulo es: {Punto_1_X} en X y {Punto_1_Y} en Y")
-        print(f"El segundo punto del rectangulo es: {Punto_2_X} en X y {Punto_2_Y} en Y")
+class Rectángulo:
+    def __init__(self, punto1, punto2):
+        self.esquina_sup_izq = punto1
+        self.esquina_inf_der = punto2
+       
+        print(f"Las esquinas son: esquina superior izquierda {punto1} y esquina inferior derecha {punto2}")
 
-    def permietro(self, Punto_1_X,Punto_1_Y, Punto_2_X,Punto_2_Y):
-        Distancia_en_X=Punto_2_X-Punto_1_X
-        Distancia_en_Y=Punto_1_Y-Punto_2_Y
+ 
+
+
+
+    
         
 
 
